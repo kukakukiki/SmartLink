@@ -1,6 +1,5 @@
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/classical/private.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/classical/private.list,no-resolve
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash-classical.yaml
 ruleset=🤖 人工智能,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
 ruleset=🤖 人工智能,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
 ruleset=🤖 人工智能,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list
@@ -20,7 +19,6 @@ custom_proxy_group=Ⓜ️ 微软服务`select`[]🇺🇲 美国节点`[]🇭🇰
 custom_proxy_group=📺 国外媒体`select`[]🇺🇲 美国流量`[]🇭🇰 通用流量`select`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]✅ 手动切换`[]⚙️ 节点选择`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🇭🇰 通用流量`[]🇺🇲 美国流量`select`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]✅ 手动切换`[]⚙️ 节点选择`[]DIRECT
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
-custom_proxy_group=🛑 广告拦截`select`[]REJECT
 custom_proxy_group=🇭🇰 香港节点`url-test`( 香港 0| 香港 1)`http://www.gstatic.com/generate_204`180,,50
 custom_proxy_group=🇯🇵 日本节点`url-test`( 日本 0| 日本 1)`http://www.gstatic.com/generate_204`180,,50
 custom_proxy_group=🇺🇲 美国节点`url-test`( 美国 0| 美国 1)`http://www.gstatic.com/generate_204`180,,100
